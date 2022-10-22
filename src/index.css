@@ -1,0 +1,32 @@
+html, body{
+  height: 100%;
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(Roboto-Black.ttf);
+}
+body{
+  font-family: Roboto-Black;
+  margin: 0;
+  padding: 0;
+  background: url(https://www.pixelstalk.net/wp-content/uploads/images1/Medical-Wallpapers-HD.jpg);
+  background-position: 50% 0%;
+  color: #fff;
+}
+
+button{
+  background: #1646a0;
+  color: #fff;
+  padding: 0 45px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+button:hover{
+  transition: .5s;
+  cursor: pointer;
+  background: #0923af;
+}
